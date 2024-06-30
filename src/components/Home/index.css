@@ -1,0 +1,46 @@
+.homeTextLight {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .homeTextLight {
+    font-size: 15px;
+  }
+}
+
+.homeTextDark {
+  color: #171f46;
+  font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+  .homeTextDark {
+    font-size: 15px;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homeBgLight {
+  background-color: #ffffff;
+}
+
+.homeBgDark {
+  background-color: #000000;
+}
+
+.home-image {
+  height: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-image {
+    height: 125px;
+  }
+}

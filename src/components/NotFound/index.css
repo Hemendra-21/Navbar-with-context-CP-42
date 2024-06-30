@@ -1,0 +1,42 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.notFoundBgLight {
+  background-color: #ffffff;
+}
+
+.notFoundBgDark {
+  background-color: #000000;
+}
+.not-found-image {
+  height: 350px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.headLight {
+  color: #ffffff;
+}
+.headDark {
+  color: #334155;
+}
+.not-found-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.descLight {
+  color: #334155;
+}
+.descDark {
+  color: #64748b;
+}

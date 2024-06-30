@@ -1,0 +1,40 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lightText {
+  color: #ffffff;
+  font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+  .lightText {
+    font-size: 15px;
+  }
+  .darkText {
+    font-size: 15px;
+  }
+}
+
+.darkText {
+  color: #171f46;
+  font-size: 30px;
+}
+
+.bgLight {
+  background-color: #ffffff;
+}
+
+.bgDark {
+  background-color: #000000;
+}
+.about-image {
+  height: 200px;
+}
+@media screen and (max-width: 767px) {
+  .about-image {
+    height: 125px;
+  }
+}
